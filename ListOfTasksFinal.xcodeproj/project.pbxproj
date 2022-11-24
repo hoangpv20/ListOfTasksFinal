@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B24F24292E1989000A8ABF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B24F23292E1989000A8ABF /* HomeViewController.swift */; };
+		84B24F26292E19BF000A8ABF /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B24F25292E19BF000A8ABF /* HomeCollectionViewCell.swift */; };
+		84B3EB0D292F1D0D0015C23F /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EB0C292F1D0D0015C23F /* GridViewController.swift */; };
+		84B3EB0F292F20270015C23F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EB0E292F20270015C23F /* SearchViewController.swift */; };
+		84B3EB11292F2B3E0015C23F /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EB10292F2B3E0015C23F /* GridCollectionViewCell.swift */; };
+		84B3EB13292F447E0015C23F /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EB12292F447E0015C23F /* SearchCollectionViewCell.swift */; };
+		84B3EB15292F4E260015C23F /* CustomTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EB14292F4E260015C23F /* CustomTabbarVC.swift */; };
+		84B3EB37292F76260015C23F /* NightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EB36292F76260015C23F /* NightViewController.swift */; };
+		84B3EB39292F7C1C0015C23F /* MTUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3EB38292F7C1B0015C23F /* MTUserDefaults.swift */; };
 		84EEB6B1292DF84100445C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEB6B0292DF84100445C0C /* AppDelegate.swift */; };
 		84EEB6B3292DF84100445C0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEB6B2292DF84100445C0C /* SceneDelegate.swift */; };
 		84EEB6B5292DF84100445C0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEB6B4292DF84100445C0C /* ViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84B24F23292E1989000A8ABF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84B24F25292E19BF000A8ABF /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		84B3EB0C292F1D0D0015C23F /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		84B3EB0E292F20270015C23F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		84B3EB10292F2B3E0015C23F /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
+		84B3EB12292F447E0015C23F /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		84B3EB14292F4E260015C23F /* CustomTabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarVC.swift; sourceTree = "<group>"; };
+		84B3EB36292F76260015C23F /* NightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightViewController.swift; sourceTree = "<group>"; };
+		84B3EB38292F7C1B0015C23F /* MTUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTUserDefaults.swift; sourceTree = "<group>"; };
 		84EEB6AD292DF84100445C0C /* ListOfTasksFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfTasksFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EEB6B0292DF84100445C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EEB6B2292DF84100445C0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +55,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84B24F21292E190B000A8ABF /* AllViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84B24F23292E1989000A8ABF /* HomeViewController.swift */,
+				84B3EB0C292F1D0D0015C23F /* GridViewController.swift */,
+				84B3EB0E292F20270015C23F /* SearchViewController.swift */,
+				84B3EB36292F76260015C23F /* NightViewController.swift */,
+			);
+			path = AllViewController;
+			sourceTree = "<group>";
+		};
+		84B24F22292E1927000A8ABF /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				84B24F25292E19BF000A8ABF /* HomeCollectionViewCell.swift */,
+				84B3EB10292F2B3E0015C23F /* GridCollectionViewCell.swift */,
+				84B3EB12292F447E0015C23F /* SearchCollectionViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
 		84EEB6A4292DF84100445C0C = {
 			isa = PBXGroup;
 			children = (
@@ -59,10 +98,14 @@
 				84EEB6B0292DF84100445C0C /* AppDelegate.swift */,
 				84EEB6B2292DF84100445C0C /* SceneDelegate.swift */,
 				84EEB6B4292DF84100445C0C /* ViewController.swift */,
+				84B3EB14292F4E260015C23F /* CustomTabbarVC.swift */,
 				84EEB6B6292DF84100445C0C /* Main.storyboard */,
 				84EEB6B9292DF84200445C0C /* Assets.xcassets */,
 				84EEB6BB292DF84200445C0C /* LaunchScreen.storyboard */,
 				84EEB6BE292DF84200445C0C /* Info.plist */,
+				84B24F22292E1927000A8ABF /* CustomCell */,
+				84B24F21292E190B000A8ABF /* AllViewController */,
+				84B3EB38292F7C1B0015C23F /* MTUserDefaults.swift */,
 			);
 			path = ListOfTasksFinal;
 			sourceTree = "<group>";
@@ -138,9 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B24F26292E19BF000A8ABF /* HomeCollectionViewCell.swift in Sources */,
+				84B3EB0F292F20270015C23F /* SearchViewController.swift in Sources */,
 				84EEB6B5292DF84100445C0C /* ViewController.swift in Sources */,
+				84B3EB0D292F1D0D0015C23F /* GridViewController.swift in Sources */,
+				84B3EB11292F2B3E0015C23F /* GridCollectionViewCell.swift in Sources */,
+				84B3EB15292F4E260015C23F /* CustomTabbarVC.swift in Sources */,
 				84EEB6B1292DF84100445C0C /* AppDelegate.swift in Sources */,
+				84B3EB39292F7C1C0015C23F /* MTUserDefaults.swift in Sources */,
 				84EEB6B3292DF84100445C0C /* SceneDelegate.swift in Sources */,
+				84B24F24292E1989000A8ABF /* HomeViewController.swift in Sources */,
+				84B3EB37292F76260015C23F /* NightViewController.swift in Sources */,
+				84B3EB13292F447E0015C23F /* SearchCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

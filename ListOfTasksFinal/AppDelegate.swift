@@ -30,7 +30,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
 }
 
+enum Theme: String {
+    case light, dark, system
+
+    // Utility var to pass directly to window.overrideUserInterfaceStyle
+    func getUserInterfaceStyle() -> UIUserInterfaceStyle {
+        switch self {
+        case .light:
+            return .light
+        case .dark:
+            return .dark
+        case .system:
+            return .unspecified
+        }
+    }
+}
